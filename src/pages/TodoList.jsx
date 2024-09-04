@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import useStore from '../store/list';
-import AddInput from './Addinput';
-import TaskList from './TaskList';
+import AddInput from '../components/Addinput';
+import TaskList from '../components/TaskList';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 

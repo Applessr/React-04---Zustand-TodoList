@@ -1,5 +1,7 @@
 import { useState } from 'react'
-import TodoList from './components/TodoList'
+import TodoList from './pages/TodoList'
+import Header from './pages/Header'
+import AppRouter from './routes/AppRouter'
 
 
 function App() {
@@ -7,7 +9,7 @@ function App() {
 
   return (
     <div>
-      <TodoList/>
+       <AppRouter/>
     </div>
   )
 }
